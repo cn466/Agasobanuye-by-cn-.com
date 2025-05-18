@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGASOBANUYE BY CN</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #d1d5db;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0a0a0a;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      color: #FFD700;
+    }
+    nav a {
+      color: #d1d5db;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem;
+      background: linear-gradient(to right, #000, #0b0c1a);
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      color: #00a86b;
+    }
+    .films {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .film-card {
+      background-color: #111;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+    }
+    .film-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .film-card h3 {
+      color: #FFD700;
+    }
+    .buttons a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      margin-right: 0.5rem;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .watch {
+      background-color: #00a86b;
+      color: #fff;
+    }
+    .download {
+      background-color: #FFD700;
+      color: #000;
+    }
+    .about, .contact {
+      padding: 2rem;
+      text-align: center;
+    }
+    footer {
+      background-color: #0a0a0a;
+      color: #aaa;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AGASOBANUYE BY CN</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#films">Films</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to AGASOBANUYE BY CN</h2>
+    <p>Your ultimate hub for explained films in Kinyarwanda</p>
+  </section>
+
+  <section id="films" class="films">
+    <div class="film-card">
+      <img src="cover.jpg" alt="Film Title">
+      <h3>Film Title</h3>
+      <div class="buttons">
+        <a href="#" class="watch" target="_blank">▶️ Watch</a>
+        <a href="#" class="download" download>⬇️ Download</a>
+      </div>
+    </div>
+    <!-- More film cards here -->
+  </section>
+
+  <section id="about" class="about">
+    <h2 style="color:#FFD700">About Us</h2>
+    <p>Agasobanuye by CN is a platform that brings you summarized and explained movies in Kinyarwanda. We focus on clarity, fun, and quality!</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 style="color:#00a86b">Contact</h2>
+    <p>Phone/WhatsApp: <strong>+250 790 112 819</strong></p>
+    <a href="https://wa.me/250790112819" target="_blank" class="watch">💬 Chat on WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AGASOBANUYE BY CN. All rights reserved.</p>
+  </footer>
+</body>
+</html>
